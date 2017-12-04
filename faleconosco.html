@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+    <meta charset="UTf-8">
+    <title>The Witcher III</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+    <img src="imagens/TopProvi.png" alt="Cabeçalho the witcher III" height="100" width="200" class="ImagemHeader">
+    </header>
+    <nav>
+        <ul>
+            <li class="navulli"><a href="index.html">Home</a></li>
+            <li class="navulli"><a href="Historia.html">História</a></li>
+            <li class="navulli"><a href="personagens.html">Personagens</a></li>
+            <li class="navulli"><a href="faleconosco.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <form>
+            <fieldset>
+                <legend>Identificação de Usuário</legend>
+                <p><label for="idNome">Nome:</label><input type="text" name="nameNome" id="idNome" size="20"></p>
+                <p><label for="idSobreNome">SobreNome:</label><input type="text" name="nameSobrenome" id="idSobreNome" size="60" maxlength="80"></p>
+                <p><label for="idEmail">Email:</label><input type="email" name="nameEmail" id="idEmail" size="60" maxlength="80"></p>
+                <p><label for="idTelefone" class="labeltelefone">Telefone: </label><input type="tel" id="idTelefone" size="12" maxlength="8"></p>
+                <p><label for="idAssunto" class="labelassunto">Assunto: </label><input type="text" size="60" id="idAssunto"></p>
+               
+                <p>Sexo:<label id="idSexoML" for="idSexoM">Masculino</label><input type="radio" id="idSexoM" checked name="nameSexo" ><label for="idSexoF">Feminino<input type="radio" id="idSexoF" name="nameSexo"></label></p>
+                
+                <p><label for="idSelect"> Pers. Fav.:</label>
+                    <select id="idSelect">
+                       <option value="Selecione">Selecione</option>
+                       <option value="Geralt">Geralt</option>
+                       <option value="Ciri">Ciri</option>
+                       <option value="Yenifer">Yenifer</option>
+                       <option value="Dondeleon">Dondeleon</option>
+                    </select>
+                    <textarea rows="20" cols="140" class="textarea"> </textarea>
+                    <input type="submit" class="submit">
+            </fieldset>
+        </form>
+    </article>
+    <footer>
+    <p>Todos os Direitos Reservados</p>
+</footer>
+</body>
+</html>
