@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+html {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgba(43, 25, 23, 0.9);
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-size-adjust: 100%;
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+footer {
+    clear: both;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    height: 20px;
+    background-color: rgb(43, 25, 23);
+    padding: 10px 10px 20px 10px;
+}
+
+nav {
+    background-color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin: 10 auto 10 auto;
+}
+
+
+.navulli {
+    display: inline;
+}
+
+ul li a {
+    /* topo, direita, base, esquerda */
+    padding: 0px 10px 0px 10px;
+    color: #54463C;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+ul li a:hover {
+    color: white;
+    background-color: lightblue;
+}
+
+#SecIndexHistoria {
+    float: left;
+    height: 250px;
+    width: 570px;
+    margin: 90px 5px 180px 20px;
+    text-align: justify;
+}
+
+#SecIndexPersonagens {
+    float: right;
+    height: 250px;
+    width: 570px;
+    margin: 90px 20px 180px 10px;
+    text-align: justify;
+    font-family: serif;
+}
+
+#ImgIndexHistoria {
+    float: left;
+}
+
+#ParIndexHistoria {
+    float: right;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-family: serif;
+}
+
+#ImgIndexPersonagens {
+    float: left;
+}
+
+
+#ParIndexPersonagens {
+    float: right;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+h1 {
+    margin: 0px auto 5px 390px;
+    font-family: sans-serif;
+}
+
+
+/*CSS DA Página história*/
+
+.aticlehistoriaimg {
+    margin: 0px 0px 0px 0px;
+}
+
+.parhistoriahisto {
+    float: right;
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 15px;
+    width: 700px;
+    text-align: justify;
+    color: black;
+    font-size: 1.2em;
+    font-family: serif;
+
+}
+
+.h1Historia {
+    float: right;
+    position: absolute;
+    margin-top: -780px;
+    margin-left: 270px;
+    width: 700px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+/*CSS da Página fale conosco*/
+
+#idNome {
+    margin-left: 40px;
+}
+
+#idSobreNome {
+    margin-left: 4px;
+}
+
+#idEmail {
+    margin-left: 42px;
+}
+
+#idTelefone {
+    margin-left: 20px;
+}
+
+#idAssunto {
+    margin-left: 23px;
+}
+
+.textarea {
+    display: block;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left: 550px;
+    width: 150px;
+    height: 40px;
+}
+
+#idSexoML {
+    margin-left: 45px;
+}
+
+#idSelect {
+    width: 150px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+/*CSS da página personagens*/
+
+/*Geralt*/
+
+#SecPersGeralt {
+    float: left;
+    height: 250px;
+    width: 550px;
+    margin: 10px 5px 20px 30px;
+    text-align: justify;
+}
+
+#ImgPersGeralt {
+    float: left;
+}
+
+#ParPersGeralt {
+    float: left;
+    width: 290px;
+    margin: 0px 0px 0px 10px;
+    font-family: serif;
+}
+
+/*Yennefer*/
+
+#SecPersYennefer {
+    float: left;
+    height: 250px;
+    width: 550px;
+    margin: 10px 5px 20px 30px;
+    text-align: justify;
+}
+
+#ImgPersYennefer {
+    float: left;
+}
+
+#ParPersYennefer {
+    float: left;
+    width: 290px;
+    margin: 0px 0px 0px 10px;
+    font-family: serif;
+}
+
+
+/*CIRI*/
+
+#SecPersCiri {
+    float: left;
+    height: 250px;
+    width: 550px;
+    margin: 10px 5px 20px 30px;
+    text-align: justify;
+}
+
+#ImgPersCiri {
+    margin-top: 5px;
+    float: left;
+}
+
+#ParPersCiri {
+    float: left;
+    width: 290px;
+    margin: 0px 0px 0px 10px;
+    font-family: serif;
+}
+
+
+/*Dandelion*/
+
+#SecPersDandelion {
+    float: left;
+    height: 250px;
+    width: 550px;
+    margin: 10px 5px 20px 30px;
+    text-align: justify;
+}
+
+#ImgPersDandelion {
+    float: left;
+    margin-top: 0px;
+}
+
+#ParPersDandelion {
+    float: left;
+    width: 290px;
+    margin: 0px 0px 0px 10px;
+    font-family: serif;
+}
+
+
+/*CSS da página tabela de personagem*/
+
+table,
+tr,
+td,
+th {
+    padding: 10px;
+    border: 2px solid black;
+    text-align: left;
+    font-family: serif;
+}
+
+th {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+table {
+    margin: 20px auto 20px 330px;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+}
